@@ -1,0 +1,3 @@
+# corrupt952
+
+test
