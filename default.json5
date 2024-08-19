@@ -14,7 +14,7 @@
     ":prHourlyLimitNone",
     ":prConcurrentLimitNone",
 
-    // https://github.com/aquaproj/aqua-renovate-config
+    // renovate: datasource=github-tags depName=aquaproj/aqua-renovate-config
     "github>aquaproj/aqua-renovate-config#1.6.0",
   ],
 
