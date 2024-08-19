@@ -1,0 +1,14 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: ["github>corrupt952/.github:default.json5"],
+
+  customManagers: [
+    {
+      fileMatch: ["^default.json5$"],
+      matchStrings: [
+        'datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s+\\S+#(?<currentValue>\\S+)"',
+      ],
+      versioningTemplate: "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}",
+    },
+  ],
+}
