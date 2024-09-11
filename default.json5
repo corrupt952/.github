@@ -4,7 +4,7 @@
   reviewers: ["@corrupt952"],
 
   // https://docs.renovatebot.com/key-concepts/scheduling/
-  schedule: ["every monday at 9:00"],
+  schedule: ["after 9am on monday"],
 
   // https://docs.renovatebot.com/configuration-options/#minimumreleaseage
   minimumReleaseAge: "5 days",
