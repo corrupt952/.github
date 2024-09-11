@@ -3,12 +3,6 @@
   assignees: ["@corrupt952"],
   reviewers: ["@corrupt952"],
 
-  // https://docs.renovatebot.com/key-concepts/scheduling/
-  schedule: ["after 9am on monday"],
-
-  // https://docs.renovatebot.com/configuration-options/#minimumreleaseage
-  minimumReleaseAge: "5 days",
-
   extends: [
     "config:base",
 
